@@ -1,2 +1,8 @@
-# kp-documentacja
-Dokumentacja Księgowości Podatkowej. MKDOCS
+# Dokumentacja Księgowości Podatkowej
+
+## Wymagania
+- MkDocs
+- Python
+
+
+
