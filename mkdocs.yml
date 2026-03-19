@@ -1,1 +1,135 @@
-site_name: Dokumentacja Księgowość Podatkowa
+###########################################################################
+############ Tutaj ustawiamy nazwę strony oraz panel nawigacji ############
+###########################################################################
+site_name: Księgowość Podatkowa FAQ
+nav: 
+# rzeczy dodane tutaj pojawią się w górnym panelu 
+    - Spis treści:  
+    # rzeczy dodane tutaj pojawią się w lewy panelu
+      - index.md
+      - Instrukcja Księgowości Podatkowej: Instrukcja Księgowości Podatkowej.md
+      - Co nowego?: Co_nowego.md
+      - Elektroniczne tytuły wykonawcze: etw.md
+      - Elektroniczne zawiadomienie wierzyciela: ezw.md
+      - Numer NIP: numernip.md
+      - Format daty wydania orzeczenia: dataworzeczenia.md
+      - Format numeru telefonu: nieprawidlowytelefon.md
+      - Wartość należności pieniężnej: naleznoscp.md
+
+    - Operacje księgowe:
+      - Rozłożenie na raty: rozlozenie_na_raty.md
+      - Cofnięcie rozłożenia na raty: cofniecie_rozlozenia.md
+
+    - Upomnienia:
+      - Tworzenie upomnienia na koncie użytkownika: Upomnienie_z_konta.md
+    - Fakturowanie:
+        - Wprowadzanie faktur sprzedażowych: faktury_sprzedazowe.md
+        - Wprowadzanie faktur zakupowych: faktury_zakupowe.md
+        - Dodawanie deklaracji JPK VAT: dodawanie_jpk.md
+    - Windykacja:
+      - 'Bilansowanie składek w obrębie miesiąca': bilansowanie_skladek_w_trakcie_miesiaca.md
+      - 'Brak podatku na liście': brak_podatku.md
+      - 'Jak korzystać z działów archiwalnych?': dzial_archiwalny.md
+      - 'Jak korzystać z okresu aktywności działu?': okres_waznosci_dzialu.md
+      - 'Jak otworzyć osobę na zamkniętej liście płac?': otwarcie_listy.md
+      - 'Jak ustawić datę wypłaty listy?': data_wyplaty.md
+      - 'Jak wprowadzić stażowe, jeżeli Płace nie są połączone z Kadrami?': jak_dziala_stazowe.md 
+      - 'Jak zaktualizować program?': aktualizacja.md
+      - 'System pożyczkowy': kzp.md
+    - Sprawozdania:
+      - 'Dlaczego program nie podnosi podstawy wynagrodzenia chorobowego do minimalnej kwoty zasiłku?': podnoszenie_zasilku_do_min.md
+      - 'Dlaczego program  podnosi podstawę zasiłku do minimalnej kwoty zasiłku choć nie powinien?': podnoszenie_zasilku_do_min2.md
+      - 'Dlaczego składnik wynagrodzenia nie jest uwzględniany w podstawie przerwy?': brak_skladnika_w_podstawie.md
+      - 'Jak dodać składnik do podstawy przerwy w pracy?': dodanie_skladnika_do_podstawy.md
+      - 'Jak dodać podstawy z poprzedniego zatrudnienia naliczając zasiłek?': dodanie_zatrudnien_do_pdst.md
+      - 'Jak korzystać z opcji "uwzględniając zasiłek"?': uwzgledniajac_zasilek.md
+      - 'Jak skorygować przerwę w pracy?': korekta_przerwy_w_pracy.md
+      - 'Jak wprowadzić urlop z powodu siły wyższej?': ./urlop_sila_wyzsza.md
+      - 'Jak wyrównać procent kwoty zasiłku?': wyrownanie_procent_zasilku.md
+      - 'Skorygowanie składek ZUS od macierzyńskiego': korekta_zus_macierzynski.md
+
+    
+###########################################################################
+################ Poniższe można kopiować miedzy projektami ################
+###########################################################################
+theme: 
+  name:  material
+  custom_dir: overrides # nadpisane stylu
+  language: pl
+  logo: assets/logo1_d.png
+  icon: #zmiana ikon strzałek w stopce
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    top: fontawesome/solid/angle-up
+  features: 
+      - navigation.footer
+      # - header.autohide
+      - navigation.tabs
+      # - navigation.sections
+      # - toc.integrate
+      - navigation.top # przycisk wróć na górę
+      - navigation.prune # zmniejsza objętość stron
+      # - navigation.path
+      - navigation.indexes 
+      - search.suggest # sugestie w wyszukiwaniu
+      - search.highlight
+      - search.share
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/brightness-7 
+        name: Przełącz na tryb ciemny
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Przełącz na tryb jasny
+extra:
+# klikalne logo 
+  homepage: https://web.softres.pl/
+  generator: false
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+    # poniższe pozwalają na podkreślenia, zaznaczenia tekstu kolorem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  # poprawne wyświetlanie list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+copyright: BUK Softres Sp. z o.o. 2023
+    # - search.suggest
+# use_directory_urls:  false
+plugins:
+    # wyszukiwarka i jej działanie offline (po zbudowaniu dokumentacji)
+    - search
+    - offline
+    # pozwala na zoom obrazka
+    - glightbox
+    # odtwarzać wideo
+    - mkdocs-video:
+        is_video: True
+        # video_muted: True
+        # video_controls: True
+        css_style:
+          width: "100%"
+extra_css:
+  - stylesheets/extra.css
+
+
+ 
+ 
+
+
+  

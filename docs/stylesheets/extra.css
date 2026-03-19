@@ -1,0 +1,14 @@
+.md-typeset h1{
+    font-weight: bold;
+  }
+.md-typeset h2 {
+  font-weight: bold;
+}
+
+.zielony {
+  color: rgb(0, 158, 0);
+}
+
+.niebieski {
+  color: #3399FF;
+}

@@ -1,0 +1,114 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+<head>
+  <title>Przykład odwróconej palety barw</title>
+  <style>
+      #printButton {
+          color: #0f0f0fd8; /* Nowy kolor tekstu */
+          border: none; /* Usunięcie obramowania */
+          font-size: 23px; /* Powiększona czcionka */   
+          transition: background-color 0.3s, color 0.3s; /*Dodajemy płynne przejście*/
+        }
+
+        #printButton:hover {
+            color: #ccc; /* Zmiana koloru tekstu po najechaniu */
+        }
+  </style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            {{ config.site_name }}
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            {% if page.meta and page.meta.title %}
+              {{ page.meta.title }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+    <html>
+    <button type="button" id="printButton" onclick="window.print()">
+      <i class="fa-solid fa-print"></i> <!--Drukuj-->
+  </button>
+  </html> 
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
+        <form class="md-header__option" data-md-component="palette">
+          {% for option in config.theme.palette %}
+            {% set scheme  = option.scheme  | d("default", true) %}
+            {% set primary = option.primary | d("indigo", true) %} <!--zmiana koloru nagłówka-->
+            {% set accent  = option.accent  | d("indigo", true) %} <!--zmiana koloru panelu bocznego-->
+            <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ scheme | replace(' ', '-') }}" data-md-color-primary="{{ primary | replace(' ', '-') }}" data-md-color-accent="{{ accent | replace(' ', '-') }}" {% if option.toggle %} aria-label="{{ option.toggle.name }}" {% else %} aria-hidden="true" {% endif %} type="radio" name="__palette" id="__palette_{{ loop.index }}">
+            {% if option.toggle %}
+              <label class="md-header__button md-icon" title="{{ option.toggle.name }}" for="__palette_{{ loop.index0 or loop.length }}" hidden>
+                {% include ".icons/" ~ option.toggle.icon ~ ".svg" %}
+              </label>
+            {% endif %}
+          {% endfor %}
+        </form>
+      {% endif %}
+    {% endif %}
+    {% if config.extra.alternate %}
+      <div class="md-header__option">
+        <div class="md-select">
+          {% set icon = config.theme.icon.alternate or "material/translate" %}
+          <button class="md-header__button md-icon" aria-label="{{ lang.t('select.language') }}">
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              {% for alt in config.extra.alternate %}
+                <li class="md-select__item">
+                  <a href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" class="md-select__link">
+                    {{ alt.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>      
+    {% endif %}
+    {% if "material/search" in config.plugins %}
+      <label class="md-header__button md-icon" for="__search">
+        {% set icon = config.theme.icon.search or "material/magnify" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
+      </label>
+      {% include "partials/search.html" %}
+    {% endif %}
+    {% if config.repo_url %}
+      <div class="md-header__source">
+        {% include "partials/source.html" %}
+      </div>
+    {% endif %}
+  </nav>
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+</header>
