@@ -19,8 +19,15 @@ nav:
     # - Wartość należności pieniężnej: naleznoscp.md
   - Operacje księgowe:
     - operacje_ksiegowe/index.md
-    - Rozłożenie na raty: operacje_ksiegowe/rozlozenie_na_raty.md
+    - Wprowadzanie dokumentów BO: operacje_ksiegowe\wprowadzanie_dokumentow_bo.md
+    - Księgowanie wpłat: operacje_ksiegowe\ksiegowanie_wplat.md
+    - Zwrot nadpłaty: operacje_ksiegowe\zwrot_nadplaty.md
+    - Umorzenie zaległości: operacje_ksiegowe\umorzenie_zaleglosci.md
+    - Rozłożenie na raty: operacje_ksiegowe\rozlozenie_na_raty.md
     - Cofnięcie rozłożenia na raty: operacje_ksiegowe/cofniecie_rozlozenia.md
+    - Przypisy i odpisy do lat ubiegłych: operacje_ksiegowe\przypisy_i_odpisy_do_lat_ubieglych.md
+    - Przesunięcie terminu płatności: operacje_ksiegowe\przesuniecie_terminu_platnosci.md
+    - Przeksięgowanie sald i nadpłat: operacje_ksiegowe\przeksiegowanie_sald_i_nadplat.md
   - Import/Export:
     - import-export/index.md
     - Import danych z Wymiaru: import-export/wymiar.md

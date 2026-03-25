@@ -4,7 +4,7 @@
 
 W celu rozłożenia na raty należy wejść na konto podatnika, którego rozłożenie ma dotyczyć.
 
-Następnie z panelu przycisków wybieramy opcję&emsp;![Rozlozenie](przyciski/Rozlozenie.png)&emsp;
+Następnie z panelu przycisków wybieramy opcję&emsp;![Rozlozenie](przyciski/Rozlozenie_p.png)&emsp;
 
 Następnie na otwierającym się okienku zaznaczyć wszystkie raty które mają być rozłożone 
 
