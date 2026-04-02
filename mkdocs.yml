@@ -28,6 +28,14 @@ nav:
     - Przypisy i odpisy do lat ubiegłych: operacje_ksiegowe\przypisy_i_odpisy_do_lat_ubieglych.md
     - Przesunięcie terminu płatności: operacje_ksiegowe\przesuniecie_terminu_platnosci.md
     - Przeksięgowanie sald i nadpłat: operacje_ksiegowe\przeksiegowanie_sald_i_nadplat.md
+  - Operacje:
+    - operacje/index.md
+    - Lista dokumentów: opercje/lista_dokumentow.md
+    - Kalkulator odsetkowy: operacje/kalkulator_odsetkowy.md
+    - Przeksięgowanie nadpłat i paragrafów: operacje/przeksiegowania.md
+    - Dziennik obrotów: operacje/dziennik_obrotow.md
+    - Zamnkięcia miesięcy / roku: operacje/zamkniecia.md
+
   - Import/Export:
     - import-export/index.md
     - Import danych z Wymiaru: import-export/wymiar.md
@@ -38,16 +46,23 @@ nav:
   - Upomnienia:
     - upomnienia/index.md
     - Tworzenie upomnienia na koncie użytkownika: upomnienia/Upomnienie_z_konta.md
+    - Korespondencja seryjna upomnień: upomnienia/upomnienie_seryjna.md
+    - Rejestr upomnień: upomnienia/upomnienie_rejestr.md
   - Egzekucja:
     - egzekucja/index.md
-    - Tytuł wykonawczy: egzekucja/tytul_wykonawczy.md
+    - Tworzenie tytułu na koncie użytkownika: egzekucja/tytul_wykonawczy.md
+    - Korespondencja seryjna tytułów: egzekucja/tytul_seryjna.md
     - Zawiadomienie: egzekucja/zawiadomienie.md
   - Wydruki:
     - wydruki/index.md
-    - 'Suma dokumentów': wydruki/suma_dokumentow.md
+    - Rozliczenia: wydruki/rozliczenia.md
+    - Obroty na kontach zbiorczych: wydruki/obroty_na_kontach_zbiorczych.md
+    - Suma dokumentów: wydruki/suma_dokumentow.md
+    - Sprawozdania: wydruki/sprawozdania.md
   - e-Doręczenia:
     - e-doreczenia/index.md
-    - Tworzenie: test.md
+    - Tworzenie e-Doręczeń: e-doreczenia/tworzenie_edoreczen.md
+    - Rejestr e-Doręczeń: e-doreczenia/rejestr_edoreczen.md
 
     
 ###########################################################################
