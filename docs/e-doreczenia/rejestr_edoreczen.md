@@ -20,7 +20,7 @@ Przyciski:
 - `Zapisz do pliku` - Zapisanie do pliku .csv wybranych kolumn rejestru.
 
 <br><br>
->W ramach standardowej ścieżki użytkownik obsługujący listę wygenerowancyh do e-Doręczenia upomnień, powienien:  
+>W ramach standardowej ścieżki użytkownik obsługujący listę wygenerowancyh do e-Doręczenia **upomnień**, powienien:  
 Podpisać wszystkie dokumenty, a następnie wybrać przycisk `Wyślij zaznaczone pozycje` - Wyświeli się komuniakt informacyjny, po którego potwierdzeniu nastąpi próba wysyłki wiadomości. 
 Po prawidłowej wysyłce, przy pismach pojawi się ikona koperty ![Koperta](screeny\PODATKIKS_ikona_koperta.png) w kolumnie Wysyłka - `W`.   
 

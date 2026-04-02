@@ -56,8 +56,14 @@ W ramach seryjnej obsługi upomnień w `Rejestrze Upomnień` w oknie `Zakres wyd
 `Typ wiadomości` - Wiadomość elektroniczna - opcja domyślnie wybrana. <font color="red">Opcja wysyłki hybrydowej nie jest obecnie dostępna</font>.  
 Oraz decyzja czy podczas generacji weryfikować posiadanie ADE przez podatników w serii. 
 
+W następnym kroku należy wybrać drukarkę  
 
-Dla upomnień, których adresaci nie posiadają skrzynek zostaną wygenerowane standardowe załączniki zapisywane na komputerze. Natomiast dla adresatów posiadających ADE zostaną utworzone i przekazne do [Rejestru](rejestr_edoreczen.md) e-Doręczenia.
+
+![Drukarka](screeny\kp_seria_drukarka.png)
+
+Dla upomnień, których adresaci nie posiadają skrzynek zostaną wygenerowane standardowe wydruki. Natomiast dla adresatów posiadających ADE zostaną utworzone i przekazne do [Rejestru](rejestr_edoreczen.md) e-Doręczenia.
+
+
 <br><br>
 
 
