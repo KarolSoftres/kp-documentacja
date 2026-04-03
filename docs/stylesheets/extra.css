@@ -14,3 +14,7 @@
 .niebieski {
   color: #3399FF;
 }
+
+.md-sidebar--secondary {
+  display:none !important;
+}
