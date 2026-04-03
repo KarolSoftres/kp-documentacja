@@ -13,9 +13,25 @@ Sprawdź najnowsze zmiany w programie Księgowość Podatkowa.
 
 ## Wersja 3.1.0.19
 
-cos o wersji
+### Dodano:
+
+- wysyłkę upomnień przez [e-Doręczenia](e-doreczenia/index.md)
+- funkcję pokazującą nieprzypisane pozycje do konta w [imporcie bankowym](import-export/bank.md)
+- funkcję przypisania konta do pozycji na [imporcie bankowym](import-export/bank.md)
+- podświetlenie wpłaty na ratę, w [imporcie wpłat kasowych](import-export/kasa.md), z kosztami egzekucji kolorem zielonym
+- rozszerzenie kalkulatora odsetkowego o wybór rat
+
+### Poprawiono:
+
+- błędy przy usuwaniu serii upomnień
+- tworzenie dekretów podczas rozłożenia na raty
+- błędne naliczanie wpłat podaczas rozdzielenia na terminy płatności
 
 
 ## Wersja 3.1.0.18
 
-cos o wersji
+### Dodano:
+- dni ustatowo wolne od pracy na stałe do kalendarza (bez świąt ruchomych)
+ 
+
+### Poprawki:
