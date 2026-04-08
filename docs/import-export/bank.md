@@ -11,10 +11,12 @@ Następnie należy wskazać dokument, do którego ma być przypisana wpłata - p
 
 Istnieje możliwość pojedcznego i zbiorczego księgowania wpłat.  
 
-- Księgowanie pojedyncze jest wywoływane przyciskiem `Księguj`, wybieranym po ustawieniu na konkretnej wpłacie. Na wyświetlonym oknie `Wpłata` wskazujemy szczegóły wpłaty, wybór zatwierdzamy, po czym następuje zaczytanie wpłaty.
+- Księgowanie pojedyncze jest wywoływane przyciskiem `Księguj`, wybieranym po podświetleniu konkretnej wpłaty. Na wyświetlonym oknie `Wpłata` wskazujemy szczegóły wpłaty, wybór zatwierdzamy, po czym nastąpi zaczytanie wpłaty.
 
 
-- Importuj zbiorczo - wyświetli się okno `Parametry dekretu` ![Parametry dekretu](screeny\imp_bank_dekret.png), po zatwierdzeniu zostaną zaksięgowane wszystkie wyświetlone na liście pozycje.
+- Importuj zbiorczo - wyświetli się okno `Parametry dekretu`  
+![Parametry dekretu](screeny\imp_bank_dekret.png),  
+Po zatwierdzeniu zostaną zaksięgowane wszystkie wyświetlone na liście pozycje.
 
 
 Przycisk `Pokaż nieprzypisane` / `Pokaż przyjęte dla kontekstu` - pozwala na wyświetlenie / ukrycie pozycji z importu, do których nie zostało znalezione konto na podstawie NRB.  
