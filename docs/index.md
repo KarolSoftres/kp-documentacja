@@ -11,6 +11,11 @@ Sprawdź najnowsze zmiany w programie Księgowość Podatkowa.
 ---
 <!-- NOWA WERSJA -->
 
+## Wersja 3.1.0.20
+
+### Usunięto:
+- możliwość dodawania i usuwania `Zatrzymaj odsetki na poszczególnych ratach` (tylko podgląd)
+
 ## Wersja 3.1.0.19
 
 ### Dodano:
@@ -20,6 +25,7 @@ Sprawdź najnowsze zmiany w programie Księgowość Podatkowa.
 - funkcję przypisania konta do pozycji na [imporcie bankowym](import-export/bank.md)
 - podświetlenie wpłaty na ratę, w [imporcie wpłat kasowych](import-export/kasa.md), z kosztami egzekucji kolorem zielonym
 - rozszerzenie kalkulatora odsetkowego o wybór rat
+- dni ustatowo wolne od pracy na stałe do kalendarza (bez świąt ruchomych)
 
 ### Poprawiono:
 
@@ -27,11 +33,10 @@ Sprawdź najnowsze zmiany w programie Księgowość Podatkowa.
 - tworzenie dekretów podczas rozłożenia na raty
 - błędne naliczanie wpłat podaczas rozdzielenia na terminy płatności
 
-
+<!-- 
 ## Wersja 3.1.0.18
 
 ### Dodano:
-- dni ustatowo wolne od pracy na stałe do kalendarza (bez świąt ruchomych)
  
 
-### Poprawki:
+### Poprawki: -->
