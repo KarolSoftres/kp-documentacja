@@ -28,14 +28,13 @@ nav:
     - Przypisy i odpisy do lat ubiegłych: operacje_ksiegowe\przypisy_i_odpisy_do_lat_ubieglych.md
     - Przesunięcie terminu płatności: operacje_ksiegowe\przesuniecie_terminu_platnosci.md
     - Przeksięgowanie sald i nadpłat: operacje_ksiegowe\przeksiegowanie_sald_i_nadplat.md
-  - Operacje:
-    - operacje/index.md
-    - Lista dokumentów: opercje/lista_dokumentow.md
-    - Kalkulator odsetkowy: operacje/kalkulator_odsetkowy.md
-    - Przeksięgowanie nadpłat i paragrafów: operacje/przeksiegowania.md
-    - Dziennik obrotów: operacje/dziennik_obrotow.md
-    - Zamnkięcia miesięcy / roku: operacje/zamkniecia.md
-
+  - Inne operacje:
+    - inne_operacje/index.md
+    - Lista dokumentów: inne_operacje/lista_dokumentow.md
+    - Kalkulator odsetkowy: inne_operacje/kalkulator_odsetkowy.md
+    - Przeksięgowanie nadpłat i paragrafów: inne_operacje/przeksiegowania.md
+    - Dziennik obrotów: inne_operacje/dziennik_obrotow.md
+    - Zamnkięcia miesięcy / roku: inne_operacje/zamkniecia.md
   - Import/Export:
     - import-export/index.md
     - Import danych z Wymiaru: import-export/wymiar.md
@@ -131,6 +130,7 @@ plugins:
     # wyszukiwarka i jej działanie offline (po zbudowaniu dokumentacji)
     - search
     - offline
+    - include-markdown
     # pozwala na zoom obrazka
     - glightbox
     # odtwarzać wideo
