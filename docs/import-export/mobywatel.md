@@ -13,8 +13,8 @@ Pliki do zaczytania pojawią się w oknie `Importu danych z systemu płatności 
 
 
 Przycisk `Pobierz wybrany wyciąg` przenosi wpłaty do bufora księgowości podatkowej, skąd można zaksięgować wpłatę na odpowiednie konto. Po pobraniu wyciągu automatycznie pojwią się zaimporotwane pozycje wpłat. Przycisk `Importuj zbiorczo` księguję zaznaczone wpłaty zgodnie z wyznaczonym przez podatnika zamiarem (np. podatnik zapłacił ratę 3 - wpłata zostanie zaksięgowana na tą ratę). Opcja `Księguj wpłatę` pozwala na zaksięgowanie tylko jednej (podświetlonej) pozycji. Przy czym umożliwia księgowanie na inne raty niż zadeklarowane. 
-
-<span style="color:red;"><strong>Zalecamy korzystanie z opcji Importu zbiorczego</strong></span>
+<br>
+<p style="color:red; text-align: center;"><strong>Zalecamy korzystanie z opcji Importu zbiorczego</strong></p>
 
 
 Następnie postępujemy analogicznie jak w przypadku zwykłego [księgowania wpłaty](../operacje_ksiegowe/ksiegowanie_wplat.md).
