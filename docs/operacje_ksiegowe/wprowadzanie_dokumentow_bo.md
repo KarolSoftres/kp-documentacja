@@ -16,6 +16,6 @@ Kolejny parametr na formularzu to `Kod dekretacji`, wybierany ze słownika , dla
 Po uzupełnieniu zapisu `Konto Wn / Konto Ma` należy podać `Ratę` i `Rok`, którego dotyczy wprowadzany dekret. Parametr `Forma` nie jest wymagany, ale można go uzupełnić jedną z wartości słownikowych.
 Po uzupełnieniu w/w pól formularza dekretacji pozostaje uzupełnienie wartości należności lub nadpłaty, służą do tego pola `Kwota` – gdzie należy wprowadzić całość oraz częściowo w odpowiednie paragrafy analityki budżetowej. Pozostałe pola nie są wymagane a oznaczają odpowiednio: `Opis` – dodatkowa informacja o dekrecie, `Numer` – identyfikator systemowy lub inny symbol, `Wpłacający` – podatnik dokonujący wpłaty (tylko w przypadku dokumentów nadpłat).
 
-
+<br><br>
 
 
