@@ -11,7 +11,7 @@ Po zakończeniu wyszukiwania zostanie wyświetlone okno z listą kontrahentów, 
 ![Lista kontrahentów](screeny\kp_szukaj_skrzynki_adresy.png)
 
 Wraz z oznaczeniem danych aktualnie znajdujących się w Systemie, oraz pobranych z BAE. 
-Jeśli adresy są niezgodne z zapisanymi w Systemie, wyjświetlają się na czerwono. Jeśli adresy są już zapisane w Systemie, wyświetlą się na czarno. 
+Jeśli adresy są niezgodne z zapisanymi w Systemie, wyświetlają się na czerwono. Jeśli adresy są już zapisane w Systemie, wyświetlą się na czarno. 
 
 Aby zapisać pobrane przez program adresy, należy zaznaczyć rekordy podlegające zapisowi oraz wybrać przycisk `Przypisz adresy skrzynek`. ADE zostaną przypisane do kontrahentów.
 
@@ -23,7 +23,7 @@ Podczas tworzenia wydruku upomnienia dla kontrahentów, którzy posiadają ADE, 
 
 ![Potwierdzenie](screeny\PODATKIKS_potwierdzenie.png)
 
-W przypadku wyboru opcji `Tak` wyświeli się okno `Szczegóły e-Doręczenia`:
+W przypadku wyboru opcji `Tak` wyświetli się okno `Szczegóły e-Doręczenia`:
 
 ![e-Doręczenie](screeny\kp_szczegoly_edor.png)
 
@@ -61,7 +61,7 @@ W następnym kroku należy wybrać drukarkę
 
 ![Drukarka](screeny\kp_seria_drukarka.png)
 
-Dla upomnień, których adresaci nie posiadają skrzynek zostaną wygenerowane standardowe wydruki. Natomiast dla adresatów posiadających ADE zostaną utworzone i przekazne do [Rejestru](rejestr_edoreczen.md) e-Doręczenia.
+Dla upomnień, których adresaci nie posiadają skrzynek zostaną wygenerowane standardowe wydruki. Natomiast dla adresatów posiadających ADE zostaną utworzone i przekazane do [Rejestru](rejestr_edoreczen.md) e-Doręczenia.
 
 
 <br><br>
