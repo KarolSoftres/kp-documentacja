@@ -1,6 +1,6 @@
 `Konto indywidualne -> Ods zatrz`
 
-Z poziomu konta indywidualnego istnieje możliwość zatrzymania odsetek na poszczególnych ratach na dany okres.
+Z poziomu konta indywidualnego istnieje możliwość zatrzymania odsetek na poszczególnych ratach za dany okres.
 
 ![zatrzymanie odsetek](screeny/zatrzymanie_odsetek.png)
 
