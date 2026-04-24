@@ -1,0 +1,6 @@
+System wyposażony jest w elementy niezbędne do tworzenia dokumentów potrzebnych do przeprowadzenia procesu windykacji zaległości podatkowych. Ze względu na procedury stosowane podczas tych czynności wydzielone zostały opcje do generowania upomnień zarówno w korespondencji seryjnej jak i indywidualnie.
+
+Dokumenty upomnień mogą być wydawane zgodnie z przyjętymi standardami w danym urzędzie - po każdej racie lub raz na pół roku.  
+Każdorazowe wydanie upomnienia powoduje przypisanie stosownej kwoty kosztów i obciążenie nimi konta podatnika. Ze względu na różne preferencje w zakresie wyglądu i procedur związanych z wydawaniem tego typu dokumentu w programie znajdują się parametry określające konfiguracje upomnień.  
+W menu `Parametry > Parametry główne`, na zakładce `Parametry` ogólne znajduje się określenie aktualnej kwoty kosztów upomnienia oraz numer serii, a w `Upomnienia/Tytuły wykonawcze` można określić co ma wchodzić w podsumowanie formularza.  
+Przygotowanie danych do wydruku upomnienia można wykonać bezpośrednio z konta analitycznego podatnika lub poprzez tworzenie zbiorcze – korespondencja seryjna.
