@@ -1,3 +1,5 @@
+Rejestry > Rejestr upomnień
+
 Wszystkie upomnienia generowane czy to bezpośrednio z konta czy poprzez korespondencje seryjną są zapisywane do kartoteki upomnień. Rejestr ten ma układ drzewiasty, główna część określa rok utworzenia, a poszczególne gałęzie to serie. 
 
 ![Rejestr upomnień](screeny\upomnienia_rejestr.png)
