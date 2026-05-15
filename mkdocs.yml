@@ -63,7 +63,9 @@ nav:
     - e-doreczenia/index.md
     - Tworzenie e-Doręczeń: e-doreczenia/tworzenie_edoreczen.md
     - Rejestr e-Doręczeń: e-doreczenia/rejestr_edoreczen.md
-
+  - Uruchomienie programu:
+    - Logowanie: uruchomienie_programu\logowanie.md
+    - Menu: uruchomienie_programu\menu.md
     
 ###########################################################################
 ################ Poniższe można kopiować miedzy projektami ################
