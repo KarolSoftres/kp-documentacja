@@ -66,6 +66,9 @@ nav:
   - Uruchomienie programu:
     - Logowanie: uruchomienie_programu\logowanie.md
     - Menu: uruchomienie_programu\menu.md
+    - Obsługa słowników: uruchomienie_programu\obsluga_slownikow.md
+    - Standardy: uruchomienie_programu\standardy.md
+    - Struktura: uruchomienie_programu\struktura.md
     
 ###########################################################################
 ################ Poniższe można kopiować miedzy projektami ################
@@ -112,6 +115,7 @@ extra:
   homepage: https://web.softres.pl/
   generator: false
 markdown_extensions:
+  - admonition
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

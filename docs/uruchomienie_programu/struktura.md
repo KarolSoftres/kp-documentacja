@@ -33,14 +33,16 @@ Lista rekordów może być sortowana wg zawartości każdej kolumny tzn. zgodnie
 
 ![Sortowanie](screeny\struktura_kartoteka_sortowanie.png)
 
-Pole identyfikator jest złożeniem pól Nazwisko/Nazwa oraz Imię. Aby w liście wyszukać odpowiedni wpis, po przesortowaniu, należy rozpocząć wpisywanie wyszukiwanego wyrażenia. Pod listą system będzie wyświetlał wpisane znaki, a kursor w formie belki zostanie ustawiony na najbardziej zbliżonym wpisie w tabeli rekordów. 
+Pole `Identyfikator` jest złożeniem pól `Nazwisko/Nazwa` oraz `Imię`. Aby w liście wyszukać odpowiedni wpis, po przesortowaniu, należy rozpocząć wpisywanie wyszukiwanego wyrażenia. Pod listą system będzie wyświetlał wpisane znaki, a kursor w formie belki zostanie ustawiony na najbardziej zbliżonym wpisie w tabeli rekordów. 
 
 ![Wyszukiwanie](screeny\struktura_kartoteka_wyszukiwanie.png)
 
 Wszystkie operacje jakie można wykonywać tzn. dodanie nowego, usunięcie, edycja, zatwierdzenie rekordu danych itd. wykonuje standardowy nawigator danych
 
-`Ze względu na to baza, że baza jest wspólna dla wszystkich systemów nie należy w niej dublować rekordów aby zachować jednoznaczność wpisów. Oznacza to iż jeden kontrahent powinien widnieć tylko jeden raz w bazie danych.`
+!!! warning "Uwaga"
+    Ze względu na to, że baza jest wspólna dla wszystkich systemów nie należy w niej dublować rekordów aby zachować jednoznaczność wpisów. Oznacza to iż jeden kontrahent powinien widnieć tylko jeden raz w bazie danych.
 
+<br>
 Zakładki tematyczne zawierają dane rozszerzone potrzebne do identyfikacji kontrahenta:
 
 - `Dane adresowe` – dane teleadresowe, adres, adres do korespondencji, telefon, fax, e-mail, zgody na komunikację,
@@ -109,7 +111,8 @@ Poniższy rysunek zawiera przykład definicji numeratora dla „Decyzji o zarach
 
 ![Numerator](screeny\numeratory_poprawa.png)
 
-*Wprowadzanie modyfikacji do poszczególny członów numeratora jest dozwolone tylko i wyłącznie wtedy gdy do bazy pism danego typu nie została wprowadzona żadna pozycja. Dotyczy to przede wszystkim położenia pola „Numer kolejny”.*
+!!! Info
+    Wprowadzanie modyfikacji do poszczególny członów numeratora jest dozwolone tylko i wyłącznie wtedy gdy do bazy pism danego typu nie została wprowadzona żadna pozycja. Dotyczy to przede wszystkim położenia pola „Numer kolejny”.
 
 <br><br><br>
 
@@ -118,6 +121,7 @@ Poniższy rysunek zawiera przykład definicji numeratora dla „Decyzji o zarach
 Przed rozpoczęciem właściwej pracy z programem należy sprawdzić w menu Parametry -> Parametry główne zapisane tam informacje. Stanowią one propozycje wyjściowe, które zależnie od potrzeb, mogą być, a  w niektórych przypadkach muszą być modyfikowane oraz uaktualniane przez użytkownika stosownie do potrzeb. Ustawienia podzielone są na zakładki tematyczne:
 
 **I. Parametry ogólne**
+
 ![Parametry ogólne](screeny\parametry_ogolne.png)
 
 - Separator konta – definicja znaku jaki będzie użyty jako element oddzielający poszczególne segmenty konta,
@@ -151,14 +155,203 @@ Przed rozpoczęciem właściwej pracy z programem należy sprawdzić w menu Para
 - Numerator pism do tytułów - wybór numeratora dla pism dla tytułów.
 - Inicjały - sposób zapisywania inicjałów pracownika.
 
-*Zmiana sposobu numeracji jest dozwolona tylko na początku roku obrachunkowego przed wprowadzeniem pierwszego zapisu do bazy.*
+!!! info
+    Zmiana sposobu numeracji jest dozwolona tylko na początku roku obrachunkowego przed wprowadzeniem pierwszego zapisu do bazy.
 
 <br><br>
 
 **III. Konteksty**
 
+![Konteksty](screeny\parametry_konteksty.png)
+
 W  wersji instalacyjnej programu zdefiniowane są cztery podstawowe konteksty z przypisanymi paragrafami: 
-    • Osoby fizyczne: podatki lokalne;
-    • Osoby prawne: podatek od nieruchomości;
-    • Osoby prawne: podatek rolny ;
-    • Osoby prawne: podatek leśny;
+- Osoby fizyczne: podatki lokalne;
+- Osoby prawne: podatek od nieruchomości;
+- Osoby prawne: podatek rolny ;
+- Osoby prawne: podatek leśny;
+
+System pozwala na zmianę parametrów zdefiniowanych kontekstów. W zakładce `Konteksty` wybieramy przycisk `Zmiana parametrów`. 
+
+![Edycja kontekstu](screeny\parametry_kontekst_edycja.png)
+
+!!! info
+    Modyfikacje w tej części formularza parametrów są dozwolone tylko na początku roku obrachunkowego przed wprowadzeniem pierwszego zapisu do bazy.
+
+
+<br><br>
+
+**IV. Upomnienia/Tytułu wykonawcze.**
+
+![Upomnienia/Tytuły](screeny\parametry_upotw.png)
+
+Parametry dotyczące upomnienia określają wygląd upomnienia stosowanego w egzekucji należności podatkowych:
+
+- Kwota upomnienia + odsetki – włączenie tego parametru dodaje sekcję „Odsetki” i sumuje zawartość tej komórki do kwoty ogółem zaległości.
+- Wydruk współwłaściciel na upomnieniu;
+- Wydruk współwłaściciel na upomnieniu z MSP;
+- Wydruk kosztów zaległych na upomnieniu;
+- Przypisz koszty upomnienia przy wystawianiu;
+- Nie wystawiaj upomnień na osoby z datą śmierci;
+- Wyświetl informacje o tytule wykonawczym przy wpłacie;
+- Opis należności w sekcji E pole 2 razem z numerem rata/rok;
+- Indywidualny rachunek bankowy na tytule wykonawczym TW-1;
+- Wstaw odsetki od ustalonego progu odsetkowego;
+- Wstaw odsetki częściowe od upomnienia;
+- Przypisz koszty w momencie wpłaty;
+- Okres, którego dotyczy należność pieniężna - z wyborem ilości rat;
+- Wyświetlaj typ zobowiązania z decyzji wymiarowej;
+- Pobieraj typ dokumentu z wymiaru (Wymiar  śmieci)
+- Zaokrąglenie odsetek na tytule i upomnieniu - wybór do: 0 - złotówek, 1 - dziesiątych części, 2 - groszy
+- Wybór od kiedy naliczać datę przedawnienia;
+- Tworzenie ETW;
+- Przypis koszty upomnienia do ostatniej raty na upomnieniu;
+
+<br><br>
+
+**V. Tytuły wykonawcze - opisy**
+
+- Opisy należności;
+
+<br><br>
+
+**VI. Odsetki i oplata prolong.**
+
+![Odsetki](screeny\parametry_odsetki.png)
+
+- Odsetki:
+    - Pobieranie odsetek wg ordynacji podatkowej;
+    - Przypisywanie nie pobranych odsetek przy wpłacie;
+    - Przypisywanie odsetek przy wpłacie komorniczej;
+
+- Algorytm naliczania odsetek:
+    - Odsetki naliczane od salda zaległości;
+    - Odsetki naliczane wg dat księgowań;
+
+- Tabela odsetkowa:
+    - Podatkowa;
+    - Ustawowa;
+
+- Zaokrąglenie odsetek;
+- Zaokrąglenie częściowe odsetek;
+- Zaczytanie tabeli odsetkowej; 
+- Stawka procentowa opłaty prolongacyjnej (0-50)
+- Pobieraj odsetki częściowe poniżej kwoty minimalnej;
+- Wykazuj odsetki częściowe dla kolejnej wpłaty;
+
+<br><br>
+
+**VII. Opłaty**
+
+![Opłaty](screeny\parametry_oplaty.png)
+
+- Ilość rat;
+- Odstępy miesięczne terminów płatności;
+- Termin płatności;
+- Automatycznie dodaj przypis należności po wprowadzeniu dekretu WP;
+- Wykazuj umorzenie po upłynięciu wskazanej liczby lat.
+
+<br><br>
+
+**VIII. NRB**
+
+![NRB](screeny\parametry_nrb.png)
+
+- Typ pliku wyciągu bankowego;
+- Pobieranie rachunku NRB: 
+    - Z parametrów podatkowych,
+    - Z parametrów księgowych,
+    - Z bazy,
+    - Z bazy z pozycji właściciela.
+- Rachunek bankowy NRB;
+- Sprawdź numer banku przy czytniku wyciągu bankowego;
+- Wybór algorytmu tworzenia NRB;
+- Drugi wyciąg - wraz z parametrami;
+
+<br><br>
+
+**IX. Sprawozdania**
+
+![Sprawozdania](screeny\parametry_sprawozdania.png)
+
+- Sprawozdanie NRB:
+    - Należności wymagane przypisz do pozycji,
+    - Pozostałe należności przypisz do pozycji,
+- Wykazuj zaległość dla kosztów na sprawozdaniu RB-27S;
+- Wykazuj rozłożenia na raty z terminami płatności wyłącznie w obrębie aktualnego roku;
+- Nie wykazuj rozłożeń na raty z bilansu otwarcia;
+- pobieraj środki w drodze;
+- Nie wykazuj zaległości spółki w upadłości w RB-s;
+- informuj o zmianach/dodaniu dokumentu po stworzeniu sprawozdania po: 1 dniach;
+
+<br><br>
+
+**X. Administracyjne**
+
+- Minimalna długość hasła,
+- Siła hasła 
+
+<br><br>
+
+**XI. Inne**
+
+![Inne](screeny\parametry_inne.png)
+
+Kwitariusz:
+- Typ przypisania należności do rat:  
+
+    - 0 - standardowy 4 raty;
+    - 1 - Przesunięte raty (4->1, 5->2, 6->3, 7->4),
+    - 2 - Rozszerzony 12 rat,
+    - 3 - Numer raty ustal z terminu płatności.
+
+Kreator wpłat:
+
+- Wyświetlaj raty na wybrany dzień;
+- Rozdziel należności na terminy płatności;
+
+Eksport do systemu FK:
+
+- Wysyłaj saldo przeksięgowań
+
+Wysyłka dekretów:
+
+- Wysyłaj wpłaty i zwroty,
+- Wysyłaj wpływy,
+- Wysyłaj zwroty ze stornem paragrafu,
+- Pomiń przypis kosztów,
+- Dodaj miejsce księgowania dla należności,
+
+- Wczytywanie wpłat z nakazu - Wczytuj konto i zobowiązanie z oddzielnych kodów,
+
+- Zapisuj wydruki w bazie binariów,
+
+- Ustawienia bramki SMS,
+
+- Zezwalaj na edycję kontrahenta,
+
+- Pokazuj zmiany ewidencji ludności.
+
+<br><br>
+
+**XII. Inne**
+
+- Domyślna treść nagłówków i treści wiadomości generowanych w ramach e-doręczenia.
+
+<br><br>
+
+**XIII. EZD**
+
+- Parametry integracyjne połączenia z EZD.
+
+
+<br><br>
+
+## Stawki odsetkowe
+
+W programie **PodatkiKS** odsetki mogą być naliczane jako podatkowe i ustawowe, dlatego też system wyposażony jest w tabele zmian stawki odsetkowej oddzielnie dla wariantu odsetki podatkowe i ustawowe (menu Słowniki -> Odsetki …). Ze względu na to iż następują regularne zmiany w wysokości stawki należy na bieżąco wprowadzać modyfikacje.
+
+![Odsetki podatkowe](screeny\struktura_odsetki.png)
+
+Ze względu na sposób prowadzenia zapisów w  tabeli stawek odsetkowych, zmiany należy wprowadzać zgodnie z chronologią.
+
+<br><br>

@@ -1,8 +1,9 @@
 Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz **panelu głównych opcji** - klawiszy skrótów. Menu listowe jest podzielone tematycznie, stosownie do funkcjonalności i przeznaczenia tzn. konfiguracji, gromadzenia informacji i administrowania programem.
 
-- Kartoteki – główne zbiory danych programu, kontrahenci, plan kont, budżet, analityki.  
+- `Kartoteki` – główne zbiory danych programu, kontrahenci, plan kont, budżet, analityki.  
+
 ![Menu kontrahenci](screeny\menu_kartoteki.png)
-<br>
+
 <table>
   <tbody>
     <tr>
@@ -32,14 +33,16 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
-<br>
+<br><br>
 
-- Kontekst  – wybór bieżącego kontekstu pracy. Lista dostępnych dla użytkownika dostępów zależy od posiadanych przez niego dostępów.  
+- `Kontekst`  – wybór bieżącego kontekstu pracy. Lista dostępnych dla użytkownika dostępów zależy od posiadanych przez niego dostępów.  
+
 ![Wybór kontekstu](screeny\menu_konteksty.png)
 
-<br>
+<br><br>
 
-- Operacje - Wydzielone operacje systemowe.  
+- `Operacje` - Wydzielone operacje systemowe.  
+
 ![Menu operacje](screeny\menu_operacje.png)
 
 <table>
@@ -117,13 +120,12 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
-
+<br><br>
 
 - `Inkasent`  – obsługa kwitariuszy, tworzenie rozliczeń dla inkasentów.  
+
 ![Menu inkasent](screeny\menu_inkasent.png)
 
-
-<br>
 <table>
   <tbody>
     <tr>
@@ -141,9 +143,10 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
-
+<br><br>
 
 - `Wydruki` –  zastawienia , raporty, sprawozdania – generowanie i wydruk zgodnie z zadanymi kryteriami.  
+
 ![Menu wydruki](screeny\menu_wydruki.png)
 
 <table>
@@ -195,6 +198,7 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
+<br><br>
 
 - `Rejestry` –  tworzenie i wydruk zbiorczy pism stosowanych w egzekucji zaległości podatkowych, obsługa rejestrów pism wychodzących.  
 
@@ -245,7 +249,7 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
-
+<br><br>
 
 - `Import/Eksport`  –  wymiana danych z systemami współpracującymi.
 
@@ -288,6 +292,7 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
+<br><br>
 
 - `Słowniki` –  zbiory danych słownikowych wykorzystywane w bieżącej pracy z systemem.
 
@@ -363,6 +368,7 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
+<br><br>
 
 - `Parametry`  – informacje o jednostce, definiowanie użytkowników systemu, konfiguracja globalnych parametrów obsługujących program.
 
@@ -425,6 +431,7 @@ Menu użytkownika jest zbudowane z dwóch części: **menu rozwijalnego**  oraz 
   </tbody>
 </table>
 
+<br><br>
 
 - `Przypomnienia` –  uniwersalny przypominacz, narzędzie wspomagające prace referatu.
 

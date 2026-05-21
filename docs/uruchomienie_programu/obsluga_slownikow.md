@@ -1,23 +1,26 @@
 Kolejnym ze standardów stosowanym w programie są wartości słownikowe. 
 Poszczególne słowniki są obsługiwane przez formularze o charakterystycznym wyglądzie.  
 Okno składa się z nawigatora danych, tablicy wartości słownikowych oraz klawiszy wyboru.  W zależności od trybu wywołania słownika widoczne są różne klawisze nawigatora i przycisków wyboru. 
+
 ![Okno słownik](screeny\slowniki_okno.png)
-Jeżeli słownik wywołany jest w trybie, w którym użytkownik może dopisywać, usuwać i zmieniać dane widoczne są przyciski nawigatora danych:
+
+Jeżeli słownik wywołany jest w trybie, w którym użytkownik może dopisywać, usuwać i zmieniać dane widoczne są przyciski nawigatora danych:  
 ![Przyciski nawigacyjne](screeny\slowniki_przyciski_1.png) - Rekord pierwszy, Poprzedni, Następny, Ostatni.
 
 ![Przyciski funkcyjne](screeny\slowniki_przeciski_2.png) - Dodaj rekord, Usuń rekord, Edytuj rekord.
 
 ![Przyciski funkcyjne](screeny\slowniki_przyciski_3.png) - Zatwierdź zmiany, Anuluj, Odśwież listę.
 
- Edycji danych dokonuje się bezpośrednio w tablicy wartości słownikowych, a wprowadzone zmiany akceptuje się przyciskiem potwierdzenia nawigatora danych. Jeżeli chcemy anulować ostatnią zmianę należy użyć przycisku `x` nawigatora. Przywrócona zostanie wartość poprzednia ze słownika lub nowo wprowadzony wiersz zostanie pominięty. Przyciśnięcie klawisza Wybierz (lub podwójne kliknięcie na rekordzie w tablicy) powoduje wybranie wartości i zamknięcie okna, jeżeli słownik został wywołany przez przycisk wyboru wartości.
+ Edycji danych dokonuje się bezpośrednio w tablicy wartości słownikowych, a wprowadzone zmiany akceptuje się przyciskiem potwierdzenia nawigatora danych. Jeżeli chcemy anulować ostatnią zmianę należy użyć przycisku `x` nawigatora. Przywrócona zostanie wartość poprzednia ze słownika lub nowo wprowadzony wiersz zostanie pominięty. Przyciśnięcie klawisza `Wybierz` (lub podwójne kliknięcie na rekordzie w tablicy) powoduje wybranie wartości i zamknięcie okna, jeżeli słownik został wywołany przez przycisk wyboru wartości.
 
  W uproszczonej wersji okna słownikowego mogą być stosowane 3 opcje: Nowy, Popraw, Usuń:
  ![Przyciski uproszczone](screeny\slowniki_przyciski_up.png)
 
- W niektórych miejscach programu (np. przy wyborze warunków dla filtrów) możliwe jest wybieranie wielu wartości jednocześnie. W tym celu należy trzymając wciśnięty klawisz Ctrl, wybierać z listy interesujące nas wartości. W tablicy wartości wybrane rekordy pozostaną zaznaczone niebieską belką.  
+ W niektórych miejscach programu (np. przy wyborze warunków dla filtrów) możliwe jest wybieranie wielu wartości jednocześnie. W tym celu należy trzymając wciśnięty klawisz `Ctrl`, wybierać z listy interesujące nas wartości. W tablicy wartości wybrane rekordy pozostaną zaznaczone niebieską belką.  
  Jeżeli w oknie widoczne są przyciski `Zatwierdź` i `Anuluj` oznacza to, że wprowadzone zmiany muszą być zatwierdzone klawiszem `Zatwierdź`, w przeciwnym wypadku wszystkie wprowadzone zmiany zostaną anulowane, a stan w bazie danych będzie jak przed wywołaniem słownika. Umożliwia to zatwierdzanie zmian, dopiero po upewnieniu się, że wprowadzone wartości są prawidłowe. Jeżeli popełniliśmy błąd możemy anulować wszystkie wprowadzone zmiany, bez utraty integralności danych.
 
 <br><br>
+
  ## Lista unikalnych wartości
 
  Na zakładkach wyboru warunku wyszukiwania często używane są listy wartości unikalnych uruchamiane za pomocą przycisku ![](screeny\standardy_p_slownik.png). Przykładowe okno wyboru wartości unikalnych znajduje się poniżej: 
@@ -29,6 +32,7 @@ Jeżeli słownik wywołany jest w trybie, w którym użytkownik może dopisywać
 
 
  <br><br>
+ 
  ## Obsługa filtrów
 
  W okienkach i zakładkach wyboru danych z bazy stosowane są specjalne pola umożliwiające zadawanie warunków wyboru.

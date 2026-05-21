@@ -1,11 +1,11 @@
 W systemie występują elementy, które można nazwać standardowymi. Spełniają one role uniwersalnych narzędzi obsługujących w programie różne zbiory danych, są to: 
 
     
-    • Przyciski funkcyjne
-    • Zadawanie warunków wyszukiwania
-    • Okna obsługi słowników
-    • Kalendarz
-    • Lista unikalnych wartości
+• Przyciski funkcyjne
+• Zadawanie warunków wyszukiwania
+• Okna obsługi słowników
+• Kalendarz
+• Lista unikalnych wartości
 
 
 ## Przyciski funkcyjne
@@ -82,11 +82,6 @@ W systemie występują elementy, które można nazwać standardowymi. Spełniaj�
         <tr>
       <td><img src="screeny\standardy_p_czysc.png"></td>
       <td><strong>Czyść warunek </strong>– usuwa warunek filtru.</td>
-    </tr>
-      </tr>
-        <tr>
-      <td><img src="screeny\standardy_p_szukaj.png"></td>
-      <td><strong>Szukaj</strong> - przycisk zatwierdza warunki wyszukiwania na oknie warunków wyszukiwania.</td>
     </tr>
       </tr>
         <tr>
